@@ -20,8 +20,20 @@ class MainActivity : AppCompatActivity() {
         val birthdayText = findViewById<EditText>(R.id.birthdayText)
         val totalText = findViewById<TextView>(R.id.totalText)
         val submitButton = findViewById<Button>(R.id.submitButton)
-        
 
+        var birthday = 14
+
+
+        submitButton.setOnClickListener {
+           val     
+
+        }
+
+
+        birthday = birthday + 10
+        birthday = birthday * 3
+        birthday = birthday - 5
+        birthday = birthday \ 2
 
 
 
